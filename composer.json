@@ -1,0 +1,21 @@
+{
+    "name": "hrupin/yii2-test",
+    "description": "Yii2 Module TEST",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hrupin Aleksandr",
+            "email": "hrupin.work@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hrupin\\test\\": ""
+        }
+    }
+}
